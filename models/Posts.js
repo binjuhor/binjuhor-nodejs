@@ -6,6 +6,10 @@ const PostSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref: 'user'
     },
+    category: {
+        type: Schema.Types.ObjectId,
+        ref: 'category'
+    },
     title: {
         type: String,
         required: true
