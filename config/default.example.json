@@ -1,0 +1,4 @@
+{
+  "mongoURI" : "mongodb+srv://<username>:<mongo_password>@cluster0.icm7y.gcp.mongodb.net/Cluster0?retryWrites=true&w=majority",
+  "jwtSecret": "<generated_salt>"
+}
